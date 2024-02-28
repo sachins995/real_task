@@ -1,0 +1,331 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    margin: 0;
+    flex-direction: column;
+    font-family: "Metropolis", sans-serif;
+}
+
+.heading {
+    width: 340.73px;
+    border: 0.9px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+hr {
+    border: 0.9px solid rgba(200, 200, 200, 1);
+    flex: 1;
+
+}
+
+span {
+    color: rgba(255, 107, 130, 1);
+    position: absolute;
+    background-color: white;
+    font-family: "Metropolis", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18.08px;
+    width: 156px;
+    height: 18px
+}
+
+#checkout1 {
+    display: flex;
+    width: 340.73px;
+    height: 74.11px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid rgba(200, 200, 200, 1);
+    margin-top: 20px;
+
+}
+
+#checkout1.check {
+    background-color: rgba(255, 107, 130, 0.1);
+    border: 2px solid rgba(255, 107, 130, 1);
+    height: 174px;
+}
+
+#image {
+    position: relative;
+    top: 20px;
+    left: 103px;
+    width: 139px
+}
+
+#checkout2 {
+    display: flex;
+    width: 340.73px;
+    height: 74.11px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid rgba(200, 200, 200, 1);
+    margin-top: 20px;
+
+}
+
+#checkout2.check {
+    background-color: rgba(255, 107, 130, 0.1);
+    border: 2px solid rgba(255, 107, 130, 1);
+
+    height: 174px;
+}
+
+#checkout3 {
+    display: flex;
+    width: 340.73px;
+    height: 74.11px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid rgba(200, 200, 200, 1);
+    margin-top: 20px;
+
+}
+
+#checkout3.check {
+    background-color: rgba(255, 107, 130, 0.1);
+    border: 2px solid rgba(255, 107, 130, 1);
+
+    height: 174px;
+}
+
+
+#radioButton1 {
+    position: relative;
+    top: 0px;
+}
+
+#radioButton1.active {
+    position: relative;
+    top: -40px;
+}
+
+#radioButton2 {
+    position: relative;
+    top: 4px;
+}
+
+#radioButton2.active {
+    position: relative;
+    top: -40px;
+}
+
+#radioButton3 {
+    position: relative;
+    top: 3px;
+}
+
+#radioButton3.active {
+    position: relative;
+    top: -40px;
+}
+
+#radiotext1 {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+
+#price {
+    font-weight: 400;
+}
+
+#radiotext2 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    position: relative;
+    top: 29px;
+    left: 6px;
+}
+
+#radiotext3 {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    position: relative;
+    top: 29px;
+    left: 5px;
+}
+
+#off1 {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: 10px;
+    left: -33px;
+    font-size: 12px;
+    background: rgba(255, 107, 130, 1);
+    color: white;
+    height: 16px;
+    width: 55px;
+    align-items: center;
+    display: flex;
+    padding-left: 5px
+}
+
+#off2 {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: 16px;
+    left: 12px;
+    font-size: 12px;
+    background: rgba(255, 107, 130, 1);
+    color: white;
+    height: 16px;
+    width: 55px;
+    align-items: center;
+    display: flex;
+    padding-left: 5px;
+}
+
+#off3 {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    top: 16px;
+    left: 22px;
+    font-size: 12px;
+    background: rgba(255, 107, 130, 1);
+    color: white;
+    height: 16px;
+    width: 55px;
+    align-items: center;
+    display: flex;
+    padding-left: 5px;
+
+}
+
+#unit1 {
+    color: black;
+    Width: 82px;
+    Height: 18px;
+    position: relative;
+    Top: 13px;
+    Left: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12.1px;
+}
+
+#until2 {
+    color: black;
+    Width: 82px;
+    Height: 18px;
+    position: relative;
+    Top: 13px;
+    Left: -15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12.1px;
+}
+
+#until3 {
+    color: black;
+    Width: 82px;
+    Height: 18px;
+    position: relative;
+    Top: 13px;
+    Left: 116px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 12.1px;
+}
+
+#popular {
+    background: rgba(255, 107, 130, 1);
+    height: 25px;
+    width: 111px;
+    padding: 1px 1px 1px 17px;
+    position: relative;
+    top: -10px;
+    border-radius: 0px 0px 4px 4px;
+    left: 89px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#represent1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -176px;
+    margin-top: 60px;
+    position: relative;
+    left: -55px;
+}
+
+#represent2 {
+    display: flex;
+    margin-top: 62px;
+    margin-left: -313px;
+    position: relative;
+    left: 5px;
+}
+
+#represent3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -180px;
+    margin-top: 60px
+}
+
+th {
+    text-align: left;
+    font-weight: normal;
+    font-size: 10.85px;
+    width: 10px;
+}
+
+td {
+    width: 0px;
+    font-size: 9.94px;
+}
+
+#sizes {
+    width: 72px;
+    height: 25px;
+}
+
+#details {
+    display: flex;
+    margin-top: 20px;
+}
+
+#offer {
+    color: rgba(255, 107, 130, 1);
+
+
+}
+
+#total {
+    margin-left: 65px;
+}
+
+#btn {
+    color: white;
+    width: 341px;
+    background-color: rgba(255, 107, 130, 1);
+
+    border-radius: 4px 4px 4px 0px;
+    height: 48px;
+    margin-top: 20px;
+    border: 0.9px solid rgba(255, 107, 130, 1);
+
+
+}
+
+
